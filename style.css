@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif:wght@400&family=Outfit:wght@400;700&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400; /* For regular text */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #686767;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(223, 152, 152, 0.757);
+}
+
+.recipe-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+    display: block;
+}
+.prep-time {
+    background-color: #FFF7FC;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.nutrients tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.nutrients tr .value {
+    color: #85241b;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2em;
+    color: #060706;
+    margin-bottom: 10px;
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+}
+
+.intro {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #85241b;
+    padding-bottom: 5px;
+}
+
+ul, ol {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+}
+
+strong {
+    color: #0a0a0a;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700; /* For bold text */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    text-align: left;
+    padding: 10px;
+}
+
+table th {
+    background: #c7d1c7;
+    color: #fff;
+}
+
+table td {
+    background: #f9f9f9;
+}
+
+@media (max-width: 375px) {
+    body {
+        font-size: 14px;
+        line-height: 1.4;
+        padding: 10px;
+    }
+
+    .container {
+        max-width: 100%;
+        margin: 10px auto;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: none; /* Reduce shadow for a cleaner look on mobile */
+    }
+
+    .container .recipe-image {
+        margin: -15px;
+        max-width: calc(100% + 30px);
+        display: block;
+        border-radius: 0;
+        padding-bottom: 30px;
+    }
+
+    .prep-time {
+        background-color: #FFF7FC;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin-bottom: 8px;
+    }
+
+    .intro {
+        font-size: 1em;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-size: 1.2em;
+        padding-bottom: 3px;
+        margin-top: 15px;
+    }
+
+    ul, ol {
+        margin: 8px 0;
+        padding-left: 15px;
+    }
+
+    ul li, ol li {
+        margin-bottom: 8px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    table th, table td {
+        padding: 8px;
+    }
+
+    table th {
+        font-size: 14px;
+    }
+}
