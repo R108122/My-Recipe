@@ -3,11 +3,8 @@
 This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 
-
-
 ![](assets/images/image-omelette.jpeg)
  
-
 
 - Solution URL:(https://www.frontendmentor.io/solutions/responsive-recipe-website-IF8Dt2Bumu)
 - Live Site URL: (https://r108122.github.io/My-Recipe/)
